@@ -15,9 +15,127 @@
         <form class="account">
             <h1>Create an Account </h1>
             
-        </form>
+            <div class="row">
+                <label>
+                    First Name
+                    <input name="firstname"type="text">
+                </label>
+                <label>
+                    Last Name
+                    <input name="lastname"type="text">
+                </label>   
+            </div>
+            
+            <div class="row">
+                <label for="mail-input">E-mail</label>
+                <input type="email" name="email" id="mail-input">
+                <p>We'll never share your email with anyone else</p>
 
-        <form class="profile"></form>
+            </div>
+            
+            <div class="row">
+                <label >
+                    <input type="radio" name="gender">
+                    Male
+                </label>
+                <label >
+                    <input type="radio" name="gender">
+                    Female
+                </label>
+            </div>
+            
+            <div class="row">
+                <label>
+                    Country
+                    <select name="country">
+                        <option value="Spain">Spain</option>
+                        <option value="France">France</option>
+                        <option value="Italy">Italy</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                    </select>
+                </label>
+                <label>
+                    City
+                    <input name="city"type="text">
+                </label> 
+            </div>
+
+            <button>Sign up</button>
+
+            <div>
+                <p class="">By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                <a href="">Terms of Use</a> and <a href="">Privacy Police</a></p>
+                <hr>
+                <p class="">
+                Have an account? <a href="">Log in</a>
+                </p>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <form class="profile">
+            
+            <h2>Profile</h2>
+
+            <div>
+                <img src="./images/photo_profile.jpg" alt="user_photo">
+                    <label>
+                    <input type="file" name="file">
+                    </label>
+                    <p>Up to 1 MB (300x300 px)</p>
+                <button>
+                    <i class="">camera_alt</i>
+                </button>
+                <button>
+                    <i class="">delete</i>
+                </button>
+                </div>
+            </div>
+
+            <div class="">
+                <label>
+                Name
+                <input name="name" type="text">
+                </label>
+                <label>
+                E-mail
+                <input name="email" type="text">
+                </label>
+            </div>
+
+            <div class="row">
+                <label>
+                    Country
+                    <select name="country">
+                        <option value="Spain">Spain</option>
+                        <option value="France">France</option>
+                        <option value="Italy">Italy</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                    </select>
+                </label>
+                <label>
+                    City
+                    <input name="city" type="text">
+                </label> 
+            </div>
+
+            <div class="row">
+                <label>
+                Zip Code
+                <input name="zip-code" type="text">
+                </label>
+                <label>
+                Phone Number
+                <input name="phone-number" type="tel">
+                </label>
+            </div>
+
+            <button>Update</button>
+
+        </form>
     </section>
     
 </body>
