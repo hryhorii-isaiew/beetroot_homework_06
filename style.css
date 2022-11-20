@@ -1,3 +1,123 @@
 body {
-    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: Roboto;
+    background-color: #F7F7F7;
+    padding-top: 55px;
 }
+section {
+    width: 570px;
+    height: 590px;
+    background-color: #ffffff;
+    padding: 35px;
+}
+h1 {
+    padding-bottom: 20px;
+    color: #1C1C1C;
+}
+p {
+    font-size: 13px;
+    color: #969696;
+    line-height: 20px;
+}
+.sign,.log {
+    font-size: 13px;
+    color: #969696;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color:#007BFF;
+}
+label {
+    display: block;
+    color: #545454;
+    font-size: 15px;
+    width: 100%;
+}
+input, select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    margin: 7px 0;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    gap: 12px;  
+    padding-bottom: 10px;
+}
+.radio-button {
+    display:flex;
+    gap: 10px;
+    width: fit-content;
+    padding-top: 20px;
+}
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+}
+input[type="submit"] {
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #007BFF;
+    margin-bottom: 20px;
+}
+input[type="submit"]:active {
+    background-color: #0958ac;
+}
+hr {
+    margin: 15px;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+.choose {
+    Width: 138px;
+    Height: 30px;
+    background-image: url(/images/photo_camera.svg);
+    background-size: 20px;
+    background-position: right 5% bottom 50%;
+    background-repeat: no-repeat;
+}
+.waste_bucket {
+    margin-top: 6px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    width: 34px;
+    height: 34px;
+    background-image: url(/images/Waste_bucket.svg) ;
+    background-size: 33px;
+    margin-left: -62px;
+    background-repeat: no-repeat;
+}
+.img_choose {
+    display: block;
+    color: #545454;
+    font-size: 15px;
+    width: 33%;
+}
+.upload_img {
+    margin: 0px;
+    margin-top: 47px;
+    margin-left: -197px;
+    color: #969696;
+    font-size: 13px;
+}
+.button {
+    text-align: center;
+    display: flex;
+    flex-direction: unset;
+    row-gap: 7px;
+    width: 150px;
+    margin-left: 0px;
+    padding-left: 50px;
+}
+
+

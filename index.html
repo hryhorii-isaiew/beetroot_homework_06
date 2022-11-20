@@ -12,131 +12,127 @@
 </head>
 <body>
     <section>
-        <form class="account">
-            <h1>Create an Account </h1>
-            
-            <div class="row">
-                <label>
-                    First Name
-                    <input name="firstname"type="text">
-                </label>
-                <label>
-                    Last Name
-                    <input name="lastname"type="text">
-                </label>   
-            </div>
-            
-            <div class="row">
-                <label for="mail-input">E-mail</label>
-                <input type="email" name="email" id="mail-input">
-                <p>We'll never share your email with anyone else</p>
-
-            </div>
-            
-            <div class="row">
-                <label >
-                    <input type="radio" name="gender">
-                    Male
-                </label>
-                <label >
-                    <input type="radio" name="gender">
-                    Female
-                </label>
-            </div>
-            
-            <div class="row">
-                <label>
-                    Country
-                    <select name="country">
-                        <option value="Spain">Spain</option>
-                        <option value="France">France</option>
-                        <option value="Italy">Italy</option>
-                        <option value="USA">USA</option>
-                        <option value="UK">UK</option>
-                    </select>
-                </label>
-                <label>
-                    City
-                    <input name="city"type="text">
-                </label> 
-            </div>
-
-            <button>Sign up</button>
-
-            <div>
-                <p class="">By clicking the 'Sign Up' button, you confirm that you accept our <br>
-                <a href="">Terms of Use</a> and <a href="">Privacy Police</a></p>
-                <hr>
-                <p class="">
-                Have an account? <a href="">Log in</a>
-                </p>
-            </div>
-        </form>
+        <form  class="account">
+    
+        <h1>Create an Account</h1>
+        
+        <div class="row">
+            <label>
+            First Name
+            <input type="text" name="firstname">
+            </label>
+            <label>
+            Last Name
+            <input type="text" name="lastname">
+            </label>
+        </div>
+        
+        <div>
+            <label>
+            E-mail
+            <input type="email" name="email">
+            </label>
+            <p>We'll never share your email with anyone else</p>
+        </div>
+        
+        <div class="radio-button">
+            <label class="row">
+            <input type="radio" name="gender">
+            Male
+            </label>
+            <label class="row">
+            <input type="radio" name="gender">
+            Female
+            </label>
+        </div>
+        
+        <div class="row">
+            <label>
+            Country
+                <select name="country">
+                <option value="select">Select</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>    
+                <option value="Spain">Spain</option>
+                <option value="France">France</option>
+                <option value="Italy">Italy</option>
+                </select>
+            </label>
+            <label>
+            City
+            <input type="text" name="city">
+            </label>
+        </div>
+    
+        <input type="submit" value="Sign Up">
+        
+    </form>
+    <p class="sign">By clicking the 'Sign Up' button, you confirm that you accept our <br><a href="">Terms of Use</a> and <a href="">Privacy Police</a></p>
+        
+    <hr>
+        
+    <p class="log">Have an account?<a href="">Log in</a></p>
     </section>
 
     <section>
-        <form class="profile">
-            
-            <h2>Profile</h2>
-
+        <form action="" class="profile">
+            <h1>Profile</h1>
+        
+        <div class="row">
+            <img src="./images/photo_profile.jpg" alt="photo_profile">
+            <label for="file" class="img_choose">
+            <input type="file" class="choose" id="file">
+            </label>
             <div>
-                <img src="./images/photo_profile.jpg" alt="user_photo">
-                    <label>
-                    <input type="file" name="file">
-                    </label>
-                    <p>Up to 1 MB (300x300 px)</p>
-                <button>
-                    <i class="">camera_alt</i>
-                </button>
-                <button>
-                    <i class="">delete</i>
-                </button>
-                </div>
+            <p class="upload_img">Up to 1 MB (300x300 px)</p>
             </div>
-
-            <div class="">
+            <button class="waste_bucket"></button>
+        </div>
+    
+        <div class="row">
                 <label>
-                Name
-                <input name="name" type="text">
+                    Name
+                    <input type="text" name="name">
                 </label>
                 <label>
-                E-mail
-                <input name="email" type="text">
+                    E-mail
+                    <input type="email" name="email">
                 </label>
-            </div>
-
-            <div class="row">
+        </div>
+    
+        <div class="row">
                 <label>
-                    Country
+                Country
                     <select name="country">
-                        <option value="Spain">Spain</option>
-                        <option value="France">France</option>
-                        <option value="Italy">Italy</option>
-                        <option value="USA">USA</option>
-                        <option value="UK">UK</option>
+                    <option value="select">Select</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>    
+                    <option value="Spain">Spain</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
                     </select>
                 </label>
-                <label>
-                    City
-                    <input name="city" type="text">
-                </label> 
-            </div>
 
-            <div class="row">
+                <label>
+                City
+                <input type="text" name="firstname">
+                </label>
+        </div>
+    
+        <div class="row">
                 <label>
                 Zip Code
-                <input name="zip-code" type="text">
+                <input type="text" name="zip-code">
                 </label>
                 <label>
                 Phone Number
-                <input name="phone-number" type="tel">
+                <input type="tel" name="phone-number">
                 </label>
-            </div>
-
-            <button>Update</button>
-
+        </div>
+    
+            <input type="submit" value="Update" id="update" class="button">
+    
         </form>
     </section>
-    
 </body>
 </html>
