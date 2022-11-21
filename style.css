@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     background-color: #F7F7F7;
     padding-top: 55px;
 }
@@ -48,6 +48,14 @@ input, select {
 }
 .row {
     display: flex;
+    margin-top: 17px;
+    gap: 12px;  
+    padding-bottom: 10px;
+}
+.row-file {
+    display: flex;
+    margin-left: 90px;
+    margin-top: -72px;
     gap: 12px;  
     padding-bottom: 10px;
 }
@@ -94,7 +102,7 @@ img {
     height: 34px;
     background-image: url(/images/Waste_bucket.svg) ;
     background-size: 32px;
-    margin-left: -62px;
+    margin-left: -35px;
     background-repeat: no-repeat;
 }
 .img_choose {
@@ -105,8 +113,8 @@ img {
 }
 .upload_img {
     margin: 0px;
-    margin-top: 47px;
-    margin-left: -197px;
+    margin-top: 39px;
+    margin-left: -169px;
     color: #969696;
     font-size: 13px;
 }
