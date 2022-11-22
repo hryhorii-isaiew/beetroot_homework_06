@@ -46,6 +46,10 @@ input, select {
     border: 1px solid #e4e4e4;
     border-radius: 5px;
 }
+select {
+    height: 42px;
+    width: 101%;
+}
 input:hover {
     border-color: #007BFF;
 }
@@ -84,6 +88,9 @@ input[type="submit"] {
 }
 input[type="submit"]:active {
     background-color: #0958ac;
+}
+.sign_up {
+    width: 577px;
 }
 hr {
     margin: 15px;
