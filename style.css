@@ -102,7 +102,7 @@ img {
 .choose {
     Width: 138px;
     Height: 30px;
-    background-image: url(/images/photo_camera.svg);
+    background-image: url(./images/photo_camera.svg);
     background-size: 20px;
     background-position: right 5% bottom 50%;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ img {
     border-radius: 6px;
     width: 34px;
     height: 34px;
-    background-image: url(/images/Waste_bucket.svg) ;
+    background-image: url(./images/Waste_bucket.svg) ;
     background-size: 32px;
     margin-left: -35px;
     background-repeat: no-repeat;
